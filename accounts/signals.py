@@ -1,6 +1,6 @@
 from django.dispatch import Signal, receiver
 from django.contrib.auth.models import User
-from models import Notification
+from .models import Notification
 
 # define a signal
 user_registered = Signal()
